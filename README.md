@@ -1,4 +1,4 @@
-<h1>Active Directory Home Lab with PowerShell</h1>
+<h1>Active Directory Lab with PowerShell</h1>
 
 ## Objective
 [Brief Objective - Remove this afterwards]
