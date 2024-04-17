@@ -1,13 +1,13 @@
 <h1>Active Directory Lab with PowerShell</h1>
 
 ## Objective
-[Brief Objective - Remove this afterwards]
+
 Active Directory (AD) is one of the most important network management tools that businesses use all over the world. It functions as a centralized database that contains information on computers, users, and groups on a network. Its main purpose is to create a centralized hub for managing users, permissions, and security settings, hence streamlining tasks like user authentication, access control, and policy enforcement. By efficiently optimizing resource management, AD improves security, productivity, and network operations and enables enterprises to maintain control and supervision throughout their IT environments.
 
 I used Oracle VirtualBox to install two virtual machines, one running Windows 10 and the other Windows Server 2019, which I used to set up my home lab environment for Active Directory (AD). Installing Windows Server 2019 and configuring Active Directory as well as creating a domain for centralized resource and user management were all necessary steps in configuring the Domain Controller. Network setups such as NAT, Routing, and DHCP setup made sure that devices on the private network could connect and assign IP addresses without any problems. Automation was crucial since it streamlined user administration procedures by enabling the creation of 1,000 users in Active Directory with the help of a PowerShell script. Creating the client VM running Windows 10 and integrating it into the AD domain concluded the setup, demonstrating successful implementation and integration of AD infrastructure within the VirtualBox environment.
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
+
 
 - Setting up a Domain Controller and Active Directory infrastructure within a virtualized environment using Oracle VirtualBox
 - Configuring network components such as NAT, Routing, and DHCP for seamless connectivity and IP address management
@@ -16,7 +16,7 @@ I used Oracle VirtualBox to install two virtual machines, one running Windows 10
 - Recognizing the significance of Active Directory in network administration and user management, with implications for real-world corporate network setups.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
+
 
 - Oracle VirtualBox for virtual machine deployment
 - Windows Server 2019 for the Domain Controller VM
@@ -24,8 +24,8 @@ I used Oracle VirtualBox to install two virtual machines, one running Windows 10
 - PowerShell scripting for user creation automation
 - Network Address Translation (NAT), Routing, and DHCP for networking configurations
 
-## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+## Images
+
 
 ![Screenshot 2024-04-17 105846](https://github.com/sarch25/ActiveDirectoryLab/assets/130470960/6fc39772-4865-483e-be2f-224b377c0c96)
 
