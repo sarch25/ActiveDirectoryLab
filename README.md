@@ -2,23 +2,27 @@
 
 ## Objective
 [Brief Objective - Remove this afterwards]
-developed a SIEM tool for a home lab by utilizing Azure services. By utilizing Azure's cloud platform, I created a virtual environment for testing purposes. Specifically, I configured a honeypot virtual machine (VM) with purposefully disabled firewalls to mimic actual attack scenarios. A key component of the project was setting up an Azure workspace for Log Analytics, which acted as a repository for gathering and processing logs from the virtual machine used as a honeypot. By improving situational awareness and proactive threat identification, integration with Microsoft's cloud-native SIEM solution, Azure Sentinel, offered real-time visibility into global login attempts on a dynamic global map. Additionally, I retrieved unsuccessful login data from Windows Security Event Logs using PowerShell scripts for automation, and I used a third-party IPGeolocation API to enhance it with geographic information. By streamlining the analysis process, this automation enhanced incident response capabilities.
+Active Directory (AD) is one of the most important network management tools that businesses use all over the world. It functions as a centralized database that contains information on computers, users, and groups on a network. Its main purpose is to create a centralized hub for managing users, permissions, and security settings, hence streamlining tasks like user authentication, access control, and policy enforcement. By efficiently optimizing resource management, AD improves security, productivity, and network operations and enables enterprises to maintain control and supervision throughout their IT environments.
+
+I used Oracle VirtualBox to install two virtual machines, one running Windows 10 and the other Windows Server 2019, which I used to set up my home lab environment for Active Directory (AD). Installing Windows Server 2019 and configuring Active Directory as well as creating a domain for centralized resource and user management were all necessary steps in configuring the Domain Controller. Network setups such as NAT, Routing, and DHCP setup made sure that devices on the private network could connect and assign IP addresses without any problems. Automation was crucial since it streamlined user administration procedures by enabling the creation of 1,000 users in Active Directory with the help of a PowerShell script. Creating the client VM running Windows 10 and integrating it into the AD domain concluded the setup, demonstrating successful implementation and integration of AD infrastructure within the VirtualBox environment.
 
 ### Skills Learned
 [Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Setting up a Domain Controller and Active Directory infrastructure within a virtualized environment using Oracle VirtualBox
+- Configuring network components such as NAT, Routing, and DHCP for seamless connectivity and IP address management
+- Leveraging PowerShell scripting for automating user creation processes, improving efficiency in user management tasks
+- Integrating client VMs into the Active Directory domain, enabling centralized user authentication and resource management
+- Recognizing the significance of Active Directory in network administration and user management, with implications for real-world corporate network setups.
 
 ### Tools Used
 [Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Oracle VirtualBox for virtual machine deployment
+- Windows Server 2019 for the Domain Controller VM
+- Windows 10 for the client VM
+- PowerShell scripting for user creation automation
+- Network Address Translation (NAT), Routing, and DHCP for networking configurations
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
