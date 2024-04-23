@@ -6,6 +6,8 @@ Active Directory (AD) is one of the most important network management tools that
 
 I used Oracle VirtualBox to install two virtual machines, one running Windows 10 and the other Windows Server 2019, which I used to set up my home lab environment for Active Directory (AD). Installing Windows Server 2019 and configuring Active Directory as well as creating a domain for centralized resource and user management were all necessary steps in configuring the Domain Controller. Network setups such as NAT, Routing, and DHCP setup made sure that devices on the private network could connect and assign IP addresses without any problems. Automation was crucial since it streamlined user administration procedures by enabling the creation of 1,000 users in Active Directory with the help of a PowerShell script. Creating the client VM running Windows 10 and integrating it into the AD domain concluded the setup, demonstrating successful implementation and integration of AD infrastructure within the VirtualBox environment.
 
+![Screenshot 2024-04-02 115304](https://github.com/sarch25/ActiveDirectoryLab/assets/130470960/5dd3703d-43e7-4939-a751-d399e3b2726f)
+
 ### Skills Learned
 
 
