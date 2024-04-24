@@ -1,6 +1,6 @@
 <h1>Active Directory Lab with PowerShell</h1>
 
-## Objective
+## Summary
 
 Active Directory (AD) is one of the most important network management tools that businesses use all over the world. It functions as a centralized database that contains information on computers, users, and groups on a network. Its main purpose is to create a centralized hub for managing users, permissions, and security settings, hence streamlining tasks like user authentication, access control, and policy enforcement. By efficiently optimizing resource management, AD improves security, productivity, and network operations and enables enterprises to maintain control and supervision throughout their IT environments.
 
