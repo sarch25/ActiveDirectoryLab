@@ -2,7 +2,13 @@
 
 ## Summary
 
-I used Oracle VirtualBox to install two virtual machines, one running Windows 10 and the other Windows Server 2019, which I used to set up my home lab environment for Active Directory (AD). Installing Windows Server 2019 and configuring Active Directory as well as creating a domain for centralized resource and user management were all necessary steps in configuring the Domain Controller. Network setups such as NAT, Routing, and DHCP setup made sure that devices on the private network could connect and assign IP addresses without any problems. Automation was crucial since it streamlined user administration procedures by enabling the creation of 1,000 users in Active Directory with the help of a PowerShell script. Creating the client VM running Windows 10 and integrating it into the AD domain concluded the setup, demonstrating successful implementation and integration of AD infrastructure within the VirtualBox environment.
+Created a home lab environment using Oracle VirtualBox with two virtual machines: Windows Server 2019 and Windows 10. Configured Windows Server 2019 as a Domain Controller, setting up Active Directory for centralized resource and user management. 
+
+Implemented network services, including NAT, routing, and DHCP, to enable seamless IP assignment and connectivity within the private network. 
+
+Automated user management by creating 1,000 Active Directory users via a PowerShell script. Successfully integrated the Windows 10 client into the domain, completing the Active Directory infrastructure setup.
+
+This project demonstrates foundational IT and cybersecurity skills, emphasizing proficiency in deploying and managing enterprise-level infrastructure. It highlights skills in user and resource management, secure network configuration, and automation—critical competencies for ensuring efficient and secure IT operations in real-world environments.
 
 ![Screenshot 2024-04-02 115304](https://github.com/sarch25/ActiveDirectoryLab/assets/130470960/5dd3703d-43e7-4939-a751-d399e3b2726f)
 
@@ -22,7 +28,7 @@ I used Oracle VirtualBox to install two virtual machines, one running Windows 10
 - Windows Server 2019 for the Domain Controller VM
 - Windows 10 for the client VM
 - PowerShell scripting for user creation automation
-- Network Address Translation, Routing, and DHCP for networking configurations
+- NAT, Routing, and DHCP for networking configurations
 
 ## Images
 
