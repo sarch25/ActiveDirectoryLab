@@ -47,7 +47,6 @@ This project demonstrates foundational IT and cybersecurity skills, emphasizing 
 
 Every screenshot should have some text explaining what the screenshot is about.
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
 In this lab we're going.......
