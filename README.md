@@ -32,14 +32,15 @@ This project demonstrates foundational IT and cybersecurity skills, emphasizing 
 
 ## Images
 
-
+Active Directory user accounts successfully created and displayed, showcasing automation of 1,000 users using a PowerShell script.
 ![Screenshot 2024-04-17 105846](https://github.com/sarch25/ActiveDirectoryLab/assets/130470960/6fc39772-4865-483e-be2f-224b377c0c96)
-
-![Screenshot 2024-04-02 122004](https://github.com/sarch25/ActiveDirectoryLab/assets/130470960/5dc9d953-bec5-4951-a604-33bb314d1514)
-
 ![Screenshot 2024-04-02 115304](https://github.com/sarch25/ActiveDirectoryLab/assets/130470960/5dd3703d-43e7-4939-a751-d399e3b2726f)
+#
+![Screenshot 2024-04-02 122004](https://github.com/sarch25/ActiveDirectoryLab/assets/130470960/5dc9d953-bec5-4951-a604-33bb314d1514)
 ![Screenshot 2024-04-02 112718](https://github.com/sarch25/ActiveDirectoryLab/assets/130470960/515974ea-f491-408f-8e7d-193a888382b7)
 ![Screenshot 2024-04-02 111730](https://github.com/sarch25/ActiveDirectoryLab/assets/130470960/1b937a0a-9151-4f23-a4ab-768248ff7b28)
+
+Network services, including NAT and DHCP, implemented to enable connectivity and IP assignment within the private lab environment.
 ![Screenshot 2024-04-02 111635](https://github.com/sarch25/ActiveDirectoryLab/assets/130470960/23eb8fd3-e3e7-4687-943f-f4e29d641da0)
 
 
