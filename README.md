@@ -8,9 +8,9 @@ Implemented network services, including NAT, routing, and DHCP, to enable seamle
 
 Automated user management by creating 1,000 Active Directory users via a PowerShell script. Successfully integrated the Windows 10 client into the domain, completing the Active Directory infrastructure setup.
 
-This project demonstrates foundational IT and cybersecurity skills, emphasizing proficiency in deploying and managing enterprise-level infrastructure. It highlights skills in user and resource management, secure network configuration, and automation—critical competencies for ensuring efficient and secure IT operations in real-world environments.
+This project demonstrates foundational IT and cybersecurity skills, emphasizing proficiency in deploying and managing corporate level infrastructure. It highlights skills in user and resource management, secure network configuration, and automation—critical competencies for ensuring efficient and secure IT operations in real-world environments.
 
-![Screenshot 2024-04-02 115304](https://github.com/sarch25/ActiveDirectoryLab/assets/130470960/5dd3703d-43e7-4939-a751-d399e3b2726f)
+![Screenshot 2024-04-02 122004](https://github.com/user-attachments/assets/fdf1cf65-6f52-4a30-aff3-f65222139f35)
 
 ### Skills Learned
 
