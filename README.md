@@ -45,7 +45,7 @@ This project demonstrates foundational IT and cybersecurity skills, emphasizing 
 ![Screenshot 2024-12-27 185339](https://github.com/user-attachments/assets/700ea11c-0971-4371-8007-58d5d73e763e)
 #
 
-#### Implemented Remote Access Server (RAS) with Network Address Translation (NAT) on the Domain Controller to enable clients on the private virtual network to access the internet. This configuration ensures seamless connectivity while maintaining centralized management through the Domain Controller.
+#### Implemented Remote Access Server (RAS) with Network Address Translation (NAT) on the Domain Controller to enable clients on the private virtual network to access the internet.
 ![Screenshot 2024-12-27 195136](https://github.com/user-attachments/assets/67a7471d-9c7b-4273-a097-4fa0435a3377)
 ![Screenshot 2024-12-27 195536](https://github.com/user-attachments/assets/b6b354f0-7223-42b0-a253-7385f35c19a4)
 ![Screenshot 2024-12-27 195655](https://github.com/user-attachments/assets/abfd73f9-657d-493c-8de6-b95dc72f7c1a)
@@ -74,7 +74,7 @@ This project demonstrates foundational IT and cybersecurity skills, emphasizing 
 
 
 
-#### Set up client systems on the Internal Network to automatically receive IP addresses from the Domain Controller's DHCP server, ensuring efficient network configuration and seamless access to resources.
+#### Set up client systems on the Internal Network to automatically receive IP addresses from the Domain Controller's DHCP server, ensuring efficient network configuration and smooth access to resources.
 ![Screenshot 2024-04-02 120147](https://github.com/user-attachments/assets/73f95948-e6f6-402f-b9a6-27fa56ac8bfb)
 
 
