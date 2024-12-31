@@ -57,62 +57,55 @@ Configured Network Address Translation (NAT) to enable internal clients on the p
 ![Screenshot 2024-12-27 201429](https://github.com/user-attachments/assets/f579a669-e19d-4158-9511-730fe5238f0d)
 #
 
-Configured a DHCP server on the Domain Controller to automatically assign IP addresses to clients on the private internal network. This setup enables clients to access the internet and browse seamlessly, replicating functionality similar to an office or school environment.
+#### Configured a DHCP server on the Domain Controller to automatically assign IP addresses to clients on the private internal network. This setup enables clients to access the internet and browse seamlessly, replicating functionality similar to an office or school environment.
 ![Screenshot 2024-12-28 110418](https://github.com/user-attachments/assets/5cea7b19-4976-48cf-95fb-2d4aeb13d320)
 ![Screenshot 2024-12-28 110648](https://github.com/user-attachments/assets/4f2ab673-a38d-4659-82bc-ce403497e528)
 ![Screenshot 2024-12-28 110836](https://github.com/user-attachments/assets/cbb8767f-2b38-4c28-ad6f-83011445f22e)
 #
 
-Defined the IP range scope for the DHCP server to allocate addresses dynamically to clients on the network. This ensures efficient IP management and seamless connectivity within the private network.
-![Screenshot 2024-12-28 112440](https://github.com/user-attachments/assets/729fb2fe-0811-4e34-9c69-576e2cdb64a3)
+#### Defined the IP range scope for the DHCP server to allocate addresses dynamically to clients on the network.
 ![Screenshot 2024-12-28 112820](https://github.com/user-attachments/assets/85c5a4c1-a85e-4f53-b0c0-24cfba804dc0)
 ![Screenshot 2024-12-28 113538](https://github.com/user-attachments/assets/2e0a146f-dcb8-4883-b657-995a1823d3d8)
-![Screenshot 2024-12-28 113611](https://github.com/user-attachments/assets/e0d59548-96aa-4cb6-a940-cb4b2983e505)
 #
 
-Developed a PowerShell script to generate 1,000 user accounts and add them to Active Directory Users and Computers, automating bulk user creation and integration.
+
+
+#### Active Directory user accounts successfully created and displayed, showcasing automation of 1,000 users using a PowerShell script.
 ![Screenshot 2024-04-02 115537](https://github.com/user-attachments/assets/f3c92d7e-e468-4009-8169-896eaa58219e)
-
-
-
-
-
-Active Directory user accounts successfully created and displayed, showcasing automation of 1,000 users using a PowerShell script.
-![Screenshot 2024-04-17 105846](https://github.com/sarch25/ActiveDirectoryLab/assets/130470960/6fc39772-4865-483e-be2f-224b377c0c96)
-![Screenshot 2024-04-02 115304](https://github.com/sarch25/ActiveDirectoryLab/assets/130470960/5dd3703d-43e7-4939-a751-d399e3b2726f)
 #
-![Screenshot 2024-04-02 122004](https://github.com/sarch25/ActiveDirectoryLab/assets/130470960/5dc9d953-bec5-4951-a604-33bb314d1514)
-![Screenshot 2024-04-02 112718](https://github.com/sarch25/ActiveDirectoryLab/assets/130470960/515974ea-f491-408f-8e7d-193a888382b7)
-![Screenshot 2024-04-02 111730](https://github.com/sarch25/ActiveDirectoryLab/assets/130470960/1b937a0a-9151-4f23-a4ab-768248ff7b28)
-
-Network services, including NAT and DHCP, implemented to enable connectivity and IP assignment within the private lab environment.
-![Screenshot 2024-04-02 111635](https://github.com/sarch25/ActiveDirectoryLab/assets/130470960/23eb8fd3-e3e7-4687-943f-f4e29d641da0)
 
 
 
-
-Every screenshot should have some text explaining what the screenshot is about.
-
-
-<h2>Description</h2>
-In this lab we're going.......
-<br />
+#### Set up client systems on the Internal Network to automatically receive IP addresses from the Domain Controller's DHCP server, ensuring efficient network configuration and seamless access to resources.
+![Screenshot 2024-04-02 120147](https://github.com/user-attachments/assets/73f95948-e6f6-402f-b9a6-27fa56ac8bfb)
 
 
-<h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+#
+#### Added myself as a new user account in Active Directory to test login and connectivity on a client computer.
+![Screenshot 2024-04-02 120754](https://github.com/user-attachments/assets/1623176c-09db-4697-a834-bd1978ddeb99)
 
-<h2>Environments Used </h2>
+#### I was able to access the internet on the client computer using a user login through the Domain Controller's Internal Network.
+![Screenshot 2024-04-02 121237](https://github.com/user-attachments/assets/f8b3aa94-f6ac-4085-9373-2d7f50e330a4)
+#
 
-- <b>Windows 10</b> (21H2)
 
-<h2>Program walk-through:</h2>
 
-<p align="center">
-Users in Powershell: <br/>
-<img src="https://i.imgur.com/42t2x9V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+#### This shows one address lease in DHCP from the Domain Controller, assigned to the Client1 computer we used to access the internet. The DHCP server successfully assigned an IP address to the client.
+![Screenshot 2024-04-02 122004](https://github.com/user-attachments/assets/9dae6972-0dea-487f-97b3-e72770cbd45f)
+#
+
+
+
+
+
+
+
+
+
+
+
+
 <br />
 <br />
 
