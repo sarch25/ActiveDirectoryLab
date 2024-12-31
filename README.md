@@ -58,10 +58,20 @@ Configured Network Address Translation (NAT) to enable internal clients on the p
 #
 
 Configured a DHCP server on the Domain Controller to automatically assign IP addresses to clients on the private internal network. This setup enables clients to access the internet and browse seamlessly, replicating functionality similar to an office or school environment.
+![Screenshot 2024-12-28 110418](https://github.com/user-attachments/assets/5cea7b19-4976-48cf-95fb-2d4aeb13d320)
+![Screenshot 2024-12-28 110648](https://github.com/user-attachments/assets/4f2ab673-a38d-4659-82bc-ce403497e528)
+![Screenshot 2024-12-28 110836](https://github.com/user-attachments/assets/cbb8767f-2b38-4c28-ad6f-83011445f22e)
+#
 
+Defined the IP range scope for the DHCP server to allocate addresses dynamically to clients on the network. This ensures efficient IP management and seamless connectivity within the private network.
+![Screenshot 2024-12-28 112440](https://github.com/user-attachments/assets/729fb2fe-0811-4e34-9c69-576e2cdb64a3)
+![Screenshot 2024-12-28 112820](https://github.com/user-attachments/assets/85c5a4c1-a85e-4f53-b0c0-24cfba804dc0)
+![Screenshot 2024-12-28 113538](https://github.com/user-attachments/assets/2e0a146f-dcb8-4883-b657-995a1823d3d8)
+![Screenshot 2024-12-28 113611](https://github.com/user-attachments/assets/e0d59548-96aa-4cb6-a940-cb4b2983e505)
+#
 
-
-
+Developed a PowerShell script to generate 1,000 user accounts and add them to Active Directory Users and Computers, automating bulk user creation and integration.
+![Screenshot 2024-04-02 115537](https://github.com/user-attachments/assets/f3c92d7e-e468-4009-8169-896eaa58219e)
 
 
 
