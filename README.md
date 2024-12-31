@@ -30,35 +30,33 @@ This project demonstrates foundational IT and cybersecurity skills, emphasizing 
 - PowerShell scripting for user creation automation
 - NAT, Routing, and DHCP for networking configurations
 
-## Images
+## Walk-Through
+#### Downloaded VirtualBox
 ![Screenshot 2024-04-02 103439](https://github.com/user-attachments/assets/f0d2499b-780c-439f-a6c0-148c955f3c1f)
 #
 
-Configured the Domain Controller and installed the Windows Server 2019 ISO on the system to establish and manage the Domain Controller environment.
+#### Configured the Domain Controller and installed the Windows Server 2019 ISO on the system to establish and manage the Domain Controller environment.
 ![Screenshot 2024-12-24 105326](https://github.com/user-attachments/assets/b3e70a49-5889-4d6a-a4a9-07aee9f602d4)
 #
 
-Installed Active Directory Domain Services and created a new domain for centralized network management.
+#### Installed Active Directory Domain Services and created a new domain for centralized network management.
 ![Screenshot 2024-12-27 184434](https://github.com/user-attachments/assets/4ffc86e1-6b2b-41ee-a288-e13eb23d3936)
 ![Screenshot 2024-12-27 184844](https://github.com/user-attachments/assets/32e0f446-7004-4fba-a307-815b2103a910)
 ![Screenshot 2024-12-27 185339](https://github.com/user-attachments/assets/700ea11c-0971-4371-8007-58d5d73e763e)
 #
 
-Installed Remote Access Server (RAS) with Network Address Translation (NAT) on the Domain Controller to enable clients on the private virtual network to access the internet. This configuration ensures seamless connectivity while maintaining centralized management through the Domain Controller.
+#### Implemented Remote Access Server (RAS) with Network Address Translation (NAT) on the Domain Controller to enable clients on the private virtual network to access the internet. This configuration ensures seamless connectivity while maintaining centralized management through the Domain Controller.
 ![Screenshot 2024-12-27 195136](https://github.com/user-attachments/assets/67a7471d-9c7b-4273-a097-4fa0435a3377)
-![Screenshot 2024-12-27 195345](https://github.com/user-attachments/assets/c74d09cf-a182-4146-ac7a-f2cf617a3dbe)
 ![Screenshot 2024-12-27 195536](https://github.com/user-attachments/assets/b6b354f0-7223-42b0-a253-7385f35c19a4)
 ![Screenshot 2024-12-27 195655](https://github.com/user-attachments/assets/abfd73f9-657d-493c-8de6-b95dc72f7c1a)
 
 #
-Configured Network Address Translation (NAT) to enable internal clients on the private network to connect to the internet.
+#### Set up Network Address Translation (NAT) to enable internal clients on the private network to connect to the internet.
 ![Screenshot 2024-12-27 200818](https://github.com/user-attachments/assets/c16bb3e9-8ff7-4328-bcbb-3314bb071b1e)
 ![Screenshot 2024-12-27 201130](https://github.com/user-attachments/assets/fe197c5d-c5d8-498a-b739-e0c198749a84)
-![Screenshot 2024-12-27 201429](https://github.com/user-attachments/assets/f579a669-e19d-4158-9511-730fe5238f0d)
 #
 
 #### Configured a DHCP server on the Domain Controller to automatically assign IP addresses to clients on the private internal network. This setup enables clients to access the internet and browse seamlessly, replicating functionality similar to an office or school environment.
-![Screenshot 2024-12-28 110418](https://github.com/user-attachments/assets/5cea7b19-4976-48cf-95fb-2d4aeb13d320)
 ![Screenshot 2024-12-28 110648](https://github.com/user-attachments/assets/4f2ab673-a38d-4659-82bc-ce403497e528)
 ![Screenshot 2024-12-28 110836](https://github.com/user-attachments/assets/cbb8767f-2b38-4c28-ad6f-83011445f22e)
 #
