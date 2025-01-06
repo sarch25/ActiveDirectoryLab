@@ -2,9 +2,9 @@
 
 ## Summary
 
-Created a home lab environment using Oracle VirtualBox with two virtual machines: Windows Server 2019 and Windows 10. Configured Windows Server 2019 as a Domain Controller, setting up Active Directory for centralized resource and user management. 
+Created a home lab environment using Oracle VirtualBox with two virtual machines: Windows Server 2019 and Windows 10. I configured Windows Server 2019 as a Domain Controller and set up Active Directory for centralized resource and user management. 
 
-Implemented network services, including NAT, routing, and DHCP, to enable seamless IP assignment and connectivity within the private network. 
+I implemented network services, including NAT, routing, and DHCP, to enable seamless IP assignment and connectivity within the private network. 
 
 Automated user management by creating 1,000 Active Directory users via a PowerShell script. Successfully integrated the Windows 10 client into the domain, completing the Active Directory infrastructure setup.
 
